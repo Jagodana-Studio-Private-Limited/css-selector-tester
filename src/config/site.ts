@@ -1,174 +1,178 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "CSS Selector Tester",
+  title: "CSS Selector Tester - Test & Debug CSS Selectors in Real-Time",
+  description:
+    "Test CSS selectors against custom HTML and instantly see which elements match. Debug selectors for class, ID, attribute, pseudo-class, and combinators — 100% browser-based.",
+  url: "https://css-selector-tester.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "Code2",
+  brandAccentColor: "#6366f1",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "css selector tester",
+    "css selector debugger",
+    "test css selectors",
+    "css selector tool",
+    "querySelectorAll",
+    "css selector playground",
+    "css selector validator",
+    "css selector checker",
+    "frontend developer tools",
+    "css debugging",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
-  socialProfiles: [
-    "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
-  ],
+  socialProfiles: ["https://twitter.com/jagodana"],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github:
+      "https://github.com/Jagodana-Studio-Private-Limited/css-selector-tester",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "CSS Selector Tester is a free, browser-based tool for developers to write, test, and debug CSS selectors against custom HTML in real-time — no login, no server.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "Real-time selector matching",
+      "Visual element highlighting",
+      "Match count & element preview",
+      "Multiple selector syntax support",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "CSS Developer Tool",
+    titleLine1: "Test CSS Selectors",
+    titleGradient: "In Real-Time",
+    subtitle:
+      "Paste your HTML, type a CSS selector, and instantly see which elements match — highlighted with match count and element preview. Supports all selector types.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "⚡",
+      title: "Instant Results",
+      description:
+        "See matches highlighted in real-time as you type — no button to click, no delay.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "🎯",
+      title: "All Selector Types",
+      description:
+        "Supports class, ID, attribute, pseudo-class, pseudo-element, combinators, and complex selectors.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "🔒",
+      title: "100% Private",
+      description:
+        "Everything runs in your browser. Your HTML never leaves your machine — no servers, no tracking.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
-    },
-    {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
-    },
-    {
       name: "Regex Playground",
-      url: "https://regex-playground.jagodana.com",
+      url: "https://regex-playground.tools.jagodana.com",
       icon: "🧪",
       description: "Build, test & debug regular expressions in real-time.",
     },
     {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
+      name: "CSS Specificity Calculator",
+      url: "https://css-specificity-calculator.tools.jagodana.com",
+      icon: "🔢",
+      description: "Calculate CSS specificity scores for any selector.",
     },
     {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
+      name: "CSS nth-child Tester",
+      url: "https://css-nth-child-tester.tools.jagodana.com",
+      icon: "🎯",
+      description: "Test and preview :nth-child() and :nth-of-type() patterns.",
     },
     {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
+      name: "HTML to Markdown Converter",
+      url: "https://html-to-markdown-converter.tools.jagodana.com",
+      icon: "📝",
+      description: "Convert HTML to clean Markdown instantly.",
+    },
+    {
+      name: "JSON Formatter",
+      url: "https://json-formatter.tools.jagodana.com",
+      icon: "📋",
+      description: "Format, validate, and minify JSON data.",
+    },
+    {
+      name: "CSS Flexbox Playground",
+      url: "https://css-flexbox-playground.tools.jagodana.com",
+      icon: "📦",
+      description: "Interactive flexbox builder with live CSS output.",
     },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Enter HTML",
+      text: "Paste or type your HTML markup in the HTML editor panel on the left.",
+      url: "",
+    },
+    {
+      name: "Type a CSS Selector",
+      text: "Enter any CSS selector in the selector input field — class, ID, attribute, pseudo, combinator, or complex selectors.",
+      url: "",
+    },
+    {
+      name: "See Matches",
+      text: "Matching elements are highlighted in the HTML preview instantly. The match count and element tags are shown for quick debugging.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What CSS selectors are supported?",
+      answer:
+        "All standard CSS selectors are supported, including class selectors (.class), ID selectors (#id), element selectors (div, p), attribute selectors ([href]), pseudo-classes (:hover, :first-child, :nth-child()), combinators (> + ~), and complex combinations. It uses the browser's native querySelectorAll() engine, so anything valid in CSS works here.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Why would I use a CSS selector tester?",
+      answer:
+        "A CSS selector tester helps you verify your selectors target exactly the right elements before writing your stylesheet. It's especially useful when working with complex selectors, debugging unexpected CSS behavior, learning selector syntax, or quickly finding elements in a document structure.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Does my HTML get sent to a server?",
+      answer:
+        "No. Everything runs entirely in your browser using JavaScript. Your HTML is never sent to any server, which means it's safe to use with sensitive or proprietary markup.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "What is querySelectorAll() and how does this tool use it?",
+      answer:
+        "querySelectorAll() is a native browser DOM API that finds all elements matching a CSS selector. This tool uses it under the hood to evaluate your selector against a hidden copy of your HTML. If your selector works in this tool, it will work in real-world code using querySelectorAll() or getElementById().",
+    },
+    {
+      question: "Can I test pseudo-class selectors like :hover or :focus?",
+      answer:
+        "Pseudo-classes that depend on user interaction (:hover, :focus, :active) cannot be statically evaluated because they require the element to be in that state. Structural pseudo-classes like :first-child, :nth-child(), :last-of-type, and :not() work perfectly.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title:
+        "CSS Selector Tester - Test & Debug CSS Selectors in Real-Time",
+      description:
+        "Test CSS selectors against custom HTML and instantly see which elements match. Debug selectors for class, ID, attribute, pseudo-class, and combinators — 100% browser-based.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
